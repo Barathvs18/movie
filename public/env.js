@@ -1,1 +1,1 @@
-window.BACKEND_URL = "http://localhost:3000";
+window.BACKEND_URL = "https://movie-ybdi.onrender.com";
