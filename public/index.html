@@ -1,0 +1,22 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>NETFLIM</title>
+  <style>
+    * { box-sizing: border-box; }
+    html, body { width: 100%; height: 100%; margin: 0; overflow: hidden; background: #000; }
+    video { position: fixed; inset: 0; width: 100vw; height: 100dvh; object-fit: cover; object-position: center; display: block; }
+    @media (max-aspect-ratio: 3/4) {
+      video { height: 100dvh; object-fit: contain; }
+    }
+  </style>
+</head>
+<body>
+  <video autoplay muted playsinline preload="auto" aria-label="NETFLIM introduction">
+    <source src="/landingpage.mp4" type="video/mp4">
+  </video>
+  <script>setTimeout(() => window.location.replace('/browse'), 5500);</script>
+</body>
+</html>
