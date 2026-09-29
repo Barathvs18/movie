@@ -1,4 +1,6 @@
 node_modules/
+dist/
+.vercel/
 .env
 ffmpeg/
 npm-debug.log*
